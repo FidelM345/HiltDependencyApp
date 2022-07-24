@@ -15,4 +15,8 @@ class AnalyticsViewModel @Inject constructor(private val analyticsRepository: An
 
     fun getAnalyticsFromRemoteDataSource(): Analytics =
         analyticsRepository.getAnalyticsFromRemoteSource()
+
+    //this was used to test git hub stuffs
+    fun sumOFNumbers(numOne:Int, numTwo:Int) = numOne + numTwo
+
 }
